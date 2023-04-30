@@ -1,0 +1,220 @@
+/*<!--body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}*/
+body{
+    font-family: "Ubuntu";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+a{
+    color: #222831;
+}
+
+.float{
+    margin-left: 38%;
+}
+
+
+#title {
+    background-color: #222831;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.anime_image1{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat", "Helvetica Neue";;
+    font-size: 1.2rem
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* At Feature Section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+   color: #222831;
+   margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: black;
+}
+
+/* At Testimonials Section */
+#testimonials{
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image2{
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #222831;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-new{
+    padding: 7% 0%;
+}
+
+/* pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-column{
+    padding: 3% 2%;
+}
+
+/* Footer */
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #222831;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#footer{
+    padding: 5% 15% 0%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+/* Contact Pag */
+.heading{
+    background-color: #222831;
+    color: #fff;
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .heading1{
+    color: #222831;
+    font-size: 175%;
+  }
+  .color{
+    background-color:#fff;
+  }
+
+  .anime_image2{
+    width: 80%;
+ 
+  }
+
+  .imagegame{
+    width: 30%;
+    border-radius: 2rem;
+    padding: 10px 0;
+  }
+
+.gamelink{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.calgameimg{
+    width: 40%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.simon_imagegame{
+    width: 12%;
+    border-radius: 2rem;
+}
+
+@media (max-width: 980px) {
+    #title{
+        text-align: center;
+    }
+    .nav-item{
+        margin-left: 247px;
+    }
+    .float{
+        margin-left: 20%;
+    }
+    .calgameimg{
+        width: 100%;
+    }
+}
